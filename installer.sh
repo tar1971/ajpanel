@@ -5,12 +5,12 @@ echo
 #!/bin/sh
 echo
 ##########################################
-version=7.3.0
+version=7.4.0
 #############################################################
 TEMPATH=/tmp
 OPKGINSTALL="opkg install --force-overwrite"
-MY_IPK="enigma2-plugin-extensions-ajpanel_v7.3.0_all.ipk"
-MY_DEB="enigma2-plugin-extensions-ajpanel_v7.3.0_all.deb"
+MY_IPK="enigma2-plugin-extensions-ajpanel_v7.4.0_all.ipk"
+MY_DEB="enigma2-plugin-extensions-ajpanel_v7.4.0_all.deb"
 MY_URL="https://raw.githubusercontent.com/emil237/ajpanel/main"
 # remove old version #
 rm -rf /usr/lib/enigma2/python/Plugins/Extensions/AJPan
